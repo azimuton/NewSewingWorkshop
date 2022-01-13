@@ -1,18 +1,23 @@
 package com.example.newsewingworkshop
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import com.bumptech.glide.Glide
-import com.bumptech.glide.RequestBuilder
+import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
+import com.example.newsewingworkshop.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main2.*
 
 class MainActivity : AppCompatActivity() {
+    lateinit var binding: ActivityMainBinding
+    var mainViewModel = MainViewModel()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        binding = DataBindingUtil.setContentView(
+            this, R.layout.activity_main)
+        binding.viewModel = mainViewModel
+        binding.executePendingBindings()
 
 //        Glide.with(this)
 //            .asGif()

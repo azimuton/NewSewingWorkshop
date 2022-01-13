@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".fragments.formuls.KolokolFragment" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btResultKolokol"
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#BA1919"
+            android:drawableRight="@drawable/calcul"
+            android:fontFamily="@font/dserasercyr1"
+            android:paddingRight="50dp"
+            android:text="Вычислить"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="@+id/tilN1Klin"
+            app:layout_constraintStart_toStartOf="@+id/tilN1Klin"
+            app:layout_constraintTop_toBottomOf="@+id/tilN1Klin" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilN1Klin"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="12dp"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeColor="#EC1515"
+            app:boxStrokeWidth="2dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="15"
+            app:endIconDrawable="@android:drawable/ic_delete"
+            app:endIconMode="clear_text"
+            app:endIconTint="#D50A0A"
+            app:helperText="Вводимых символов"
+            app:hintTextColor="#DA1717"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:startIconDrawable="@android:drawable/ic_dialog_dialer">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dserasercyr1"
+                android:hint="Введите обхват талии"
+                android:maxLength="16"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="196dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ubkakolokol"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="R ="
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/btResultKolokol"
+            app:layout_constraintTop_toBottomOf="@+id/btResultKolokol" />
+
+        <TextView
+            android:id="@+id/tvResultKolokol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,5 +1,13 @@
 <resources>
-    <string name="app_name">NewSewingWorkshop</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">Швейная мастерская</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="formuls">
+        <item>Формулы :</item>
+        <item>Юбка солнце</item>
+        <item>Юбка колокол</item>
+        <item>Юбка клиньевая</item>
+        <item>Юбка 1/2 солнца</item>
+        <item>Юбка 3/4 солнца</item>
+        <item>Нагрудная выточка</item>
+    </string-array>
 </resources>
