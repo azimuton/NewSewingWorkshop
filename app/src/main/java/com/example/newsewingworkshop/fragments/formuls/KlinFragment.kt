@@ -58,16 +58,16 @@ class KlinFragment : Fragment() {
     }
 
     fun T1T2(){
-        val obhvattalii : Int = etOTKlin.text.toString().toInt()
-        val pribavka : Int = etPt.text.toString().toInt()
+        val obhvattalii : Double = etOTKlin.text.toString().toDouble().dec()
+        val pribavka : Double = etPt.text.toString().toDouble().dec()
         val n : Int = etN1Klin.text.toString().toInt()
         val result = (obhvattalii + pribavka)/n
         tvT1T2.text = result.toString()
     }
 
     fun B1B2(){
-        val obhvattalii : Int = etOTB1B2.text.toString().toInt()
-        val pribavka : Int = etPb.text.toString().toInt()
+        val obhvattalii : Double = etOTB1B2.text.toString().toDouble().dec()
+        val pribavka : Double = etPb.text.toString().toDouble().dec()
         val n : Int = etN2Klin.text.toString().toInt()
         val result = (obhvattalii + pribavka)/n
         tvB1B2.text = result.toString()

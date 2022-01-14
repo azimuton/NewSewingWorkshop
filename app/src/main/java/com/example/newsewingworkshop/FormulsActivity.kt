@@ -1,17 +1,12 @@
 package com.example.newsewingworkshop
 
-import android.content.ClipData
 import android.os.Bundle
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.AdapterView
-import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
-import com.example.newsewingworkshop.fragments.formuls.EmptyFragment
-import com.example.newsewingworkshop.fragments.formuls.KlinFragment
-import com.example.newsewingworkshop.fragments.formuls.KolokolFragment
-import com.example.newsewingworkshop.fragments.formuls.SolnceFragment
+import com.example.newsewingworkshop.fragments.formuls.*
 import kotlinx.android.synthetic.main.activity_formuls.*
 
 class MainActivity2 : AppCompatActivity() {
@@ -47,6 +42,21 @@ class MainActivity2 : AppCompatActivity() {
                     3 -> {supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.flFormuls, KlinFragment.newInstance("a", "aa"))
+                        .commit()
+                        animate()}
+                    4 -> {supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.flFormuls, PoluSolnceFragment.newInstance("a", "aa"))
+                        .commit()
+                        animate()}
+                    5 -> {supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.flFormuls, Ubka3_4SolnceFragment.newInstance("a", "aa"))
+                        .commit()
+                        animate()}
+                    6 -> {supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.flFormuls, VitochkaFragment.newInstance("a", "aa"))
                         .commit()
                         animate()
                     }
