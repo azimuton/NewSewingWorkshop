@@ -43,7 +43,7 @@ class Ubka3_4SolnceFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         btResult3_4Solnce.setOnClickListener {
-            if (etPg1Vitochka.text.toString().isNotEmpty()){
+            if (etSbRastvor.text.toString().isNotEmpty()){
                 ubka3_4Solnce()
             } else {
                 Toast.makeText(context,"Заполните пустое полe!", Toast.LENGTH_LONG).show()
@@ -52,7 +52,7 @@ class Ubka3_4SolnceFragment : Fragment() {
     }
 
     fun ubka3_4Solnce(){
-        val count = etPg1Vitochka.text.toString().toInt()
+        val count = etSbRastvor.text.toString().toInt()
         val result = (4*count)/(3*6.28)
         tvR13_4Solnce.text = result.toString()
     }

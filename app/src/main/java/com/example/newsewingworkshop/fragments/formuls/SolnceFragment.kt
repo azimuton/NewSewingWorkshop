@@ -33,7 +33,7 @@ class SolnceFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         btResultSolnce.setOnClickListener {
-            if (etPb.text.toString().isNotEmpty() && etOTB1B2.text.toString().isNotEmpty()){
+            if (etStRastvor.text.toString().isNotEmpty() && etPtRastvor.text.toString().isNotEmpty()){
                 result()
             } else {
                 Toast.makeText(context,"Заполните все поля!", Toast.LENGTH_LONG).show()
@@ -41,10 +41,10 @@ class SolnceFragment : Fragment() {
         }
     }
     private fun result() {
-        val ot : Int = etPb.text?.toString()!!.toInt()
+        val ot : Int = etStRastvor.text?.toString()!!.toInt()
         val result = ot/6.28
         tvR1Solnce.text = result.toString()
-        val dlina : Int = etOTB1B2.text?.toString()!!.toInt()
+        val dlina : Int = etPtRastvor.text?.toString()!!.toInt()
         val result1 = result + dlina
         tvR2Solnce.text = result1.toString()
     }

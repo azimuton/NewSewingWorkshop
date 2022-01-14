@@ -8,8 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.example.newsewingworkshop.R
 import kotlinx.android.synthetic.main.fragment_klin.*
-import kotlinx.android.synthetic.main.fragment_kolokol.*
-import kotlinx.android.synthetic.main.fragment_kolokol.etPb
+import kotlinx.android.synthetic.main.fragment_kolokol.etStRastvor
 
 
 private const val ARG_PARAM1 = "param1"
@@ -48,8 +47,8 @@ class KlinFragment : Fragment() {
             }
         }
         btResultB1B2.setOnClickListener {
-            if (etOTB1B2.text.toString().isNotEmpty() && etN2Klin.text.toString().isNotEmpty() &&
-                etPb.text.toString().isNotEmpty()){
+            if (etPtRastvor.text.toString().isNotEmpty() && etN2Klin.text.toString().isNotEmpty() &&
+                etStRastvor.text.toString().isNotEmpty()){
                 B1B2()
             } else {
                 Toast.makeText(context,"Заполните пустые поля!", Toast.LENGTH_LONG).show()
@@ -66,8 +65,8 @@ class KlinFragment : Fragment() {
     }
 
     fun B1B2(){
-        val obhvattalii : Double = etOTB1B2.text.toString().toDouble().dec()
-        val pribavka : Double = etPb.text.toString().toDouble().dec()
+        val obhvattalii : Double = etPtRastvor.text.toString().toDouble().dec()
+        val pribavka : Double = etStRastvor.text.toString().toDouble().dec()
         val n : Int = etN2Klin.text.toString().toInt()
         val result = (obhvattalii + pribavka)/n
         tvB1B2.text = result.toString()

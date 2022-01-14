@@ -91,7 +91,7 @@
                     app:startIconDrawable="@android:drawable/ic_dialog_dialer">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/etPb"
+                        android:id="@+id/etStRastvor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/dserasercyr1"
@@ -156,7 +156,7 @@
                     app:startIconDrawable="@android:drawable/ic_dialog_dialer">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/etOTB1B2"
+                        android:id="@+id/etPtRastvor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/dserasercyr1"

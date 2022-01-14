@@ -58,6 +58,11 @@ class MainActivity2 : AppCompatActivity() {
                         .beginTransaction()
                         .replace(R.id.flFormuls, VitochkaFragment.newInstance("a", "aa"))
                         .commit()
+                        animate()}
+                    7 -> {supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.flFormuls, RastvorFragment.newInstance("a", "aa"))
+                        .commit()
                         animate()
                     }
                 }

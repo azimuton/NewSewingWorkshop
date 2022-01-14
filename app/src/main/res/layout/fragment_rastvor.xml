@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".fragments.formuls.RastvorFragment" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="1481dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Суммарный раствор = "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/btResultSummPeredney"
+                    app:layout_constraintTop_toBottomOf="@+id/btResultSummPeredney" />
+
+                <TextView
+                    android:id="@+id/tvResultRastvorSumm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView13"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView13"
+                    app:layout_constraintTop_toTopOf="@+id/textView13"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/tvResultRastvorBokovoy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView14"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.009"
+                    app:layout_constraintStart_toEndOf="@+id/textView14"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <Button
+                    android:id="@+id/btResultSummPeredney"
+                    android:layout_width="0dp"
+                    android:layout_height="66dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="#BA1919"
+                    android:drawableRight="@drawable/calcul"
+                    android:fontFamily="@font/dserasercyr1"
+                    android:paddingRight="50dp"
+                    android:text="Раствор передней"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btResultSummZadney" />
+
+                <Button
+                    android:id="@+id/btResultSummZadney"
+                    android:layout_width="0dp"
+                    android:layout_height="66dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="#BA1919"
+                    android:drawableRight="@drawable/calcul"
+                    android:fontFamily="@font/dserasercyr1"
+                    android:paddingRight="50dp"
+                    android:text="Раствор задней"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btResultSummBokovoy" />
+
+                <Button
+                    android:id="@+id/btResultSummBokovoy"
+                    android:layout_width="0dp"
+                    android:layout_height="66dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="#BA1919"
+                    android:drawableRight="@drawable/calcul"
+                    android:fontFamily="@font/dserasercyr1"
+                    android:paddingRight="50dp"
+                    android:text="Раствор боковой"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btResultSummRastvor" />
+
+                <Button
+                    android:id="@+id/btResultSummRastvor"
+                    android:layout_width="0dp"
+                    android:layout_height="66dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="#BA1919"
+                    android:drawableRight="@drawable/calcul"
+                    android:fontFamily="@font/dserasercyr1"
+                    android:paddingRight="50dp"
+                    android:text=" Cуммарный раствор"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tilRastvor1" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilRastvor1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    app:boxCornerRadiusBottomEnd="15dp"
+                    app:boxCornerRadiusTopStart="15dp"
+                    app:boxStrokeColor="#EC1515"
+                    app:boxStrokeWidth="2dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="15"
+                    app:endIconDrawable="@android:drawable/ic_delete"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#D50A0A"
+                    app:helperText="Вводимых символов"
+                    app:hintTextColor="#DA1717"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tilRastvor2"
+                    app:startIconDrawable="@android:drawable/ic_dialog_dialer">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPtRastvor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dserasercyr1"
+                        android:hint="Введите прибавку по талии"
+                        android:maxLength="16"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilRastvor2"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    app:boxCornerRadiusBottomEnd="15dp"
+                    app:boxCornerRadiusTopStart="15dp"
+                    app:boxStrokeColor="#EC1515"
+                    app:boxStrokeWidth="2dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="15"
+                    app:endIconDrawable="@android:drawable/ic_delete"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#D50A0A"
+                    app:helperText="Вводимых символов"
+                    app:hintTextColor="#DA1717"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+                    app:startIconDrawable="@android:drawable/ic_dialog_dialer">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etStRastvor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dserasercyr1"
+                        android:hint="Введите полуобхват талии"
+                        android:maxLength="16"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout2"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    app:boxCornerRadiusBottomEnd="15dp"
+                    app:boxCornerRadiusTopStart="15dp"
+                    app:boxStrokeColor="#EC1515"
+                    app:boxStrokeWidth="2dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="15"
+                    app:endIconDrawable="@android:drawable/ic_delete"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#D50A0A"
+                    app:helperText="Вводимых символов"
+                    app:hintTextColor="#DA1717"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout1"
+                    app:startIconDrawable="@android:drawable/ic_dialog_dialer">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPbRastvor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dserasercyr1"
+                        android:hint="Введите прибавку до бедрам"
+                        android:maxLength="16"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    app:boxCornerRadiusBottomEnd="15dp"
+                    app:boxCornerRadiusTopStart="15dp"
+                    app:boxStrokeColor="#EC1515"
+                    app:boxStrokeWidth="2dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="15"
+                    app:endIconDrawable="@android:drawable/ic_delete"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#D50A0A"
+                    app:helperText="Вводимых символов"
+                    app:hintTextColor="#DA1717"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView10"
+                    app:startIconDrawable="@android:drawable/ic_dialog_dialer">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etSbRastvor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dserasercyr1"
+                        android:hint="Введите полуобхват бедер"
+                        android:maxLength="16"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="0dp"
+                    android:layout_height="237dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/photorastvor"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="0dp"
+                    android:layout_height="224dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/photorastvortwo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="0dp"
+                    android:layout_height="145dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/photorastvorthree"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Длина выточек"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Раствор боковой = "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/textView13"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Раствор задней ="
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/textView14"
+                    app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Раствор передней = "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/textView15"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+                <TextView
+                    android:id="@+id/tvResultRastvorPeredney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView17"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView17"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/tvResultRastvorZadney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView15"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toEndOf="@+id/textView15"
+                    app:layout_constraintTop_toTopOf="@+id/textView15"
+                    app:layout_constraintVertical_bias="0.0" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import com.example.newsewingworkshop.R
-import kotlinx.android.synthetic.main.fragment_polu_solnce.*
 import kotlinx.android.synthetic.main.fragment_vitochka.*
 
 // TODO: Rename parameter arguments, choose names that match
@@ -45,7 +44,7 @@ class VitochkaFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         btResultVitochka.setOnClickListener {
-            if (etPg1Vitochka.text.toString().isNotEmpty() && etPg2Vitochka.text.toString().isNotEmpty()){
+            if (etSbRastvor.text.toString().isNotEmpty() && etPbRastvor.text.toString().isNotEmpty()){
                 vitochkaPoluobhvat()
             } else {
                 Toast.makeText(context,"Заполните пустые поля!", Toast.LENGTH_LONG).show()
@@ -61,8 +60,8 @@ class VitochkaFragment : Fragment() {
     }
 
     fun vitochkaPoluobhvat(){
-        val first = etPg1Vitochka.text.toString().toInt()
-        val second = etPg2Vitochka.text.toString().toInt()
+        val first = etSbRastvor.text.toString().toInt()
+        val second = etPbRastvor.text.toString().toInt()
         val result = 2*(second - first) + 2
         tvVitochka.text = result.toString()
     }

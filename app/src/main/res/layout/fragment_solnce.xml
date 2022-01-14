@@ -12,7 +12,7 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tilN1Klin"
+            android:id="@+id/tilRastvor2"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
             app:startIconDrawable="@android:drawable/ic_dialog_dialer">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etPb"
+                android:id="@+id/etStRastvor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/dserasercyr1"
@@ -47,7 +47,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tilUbka"
+            android:id="@+id/tilRastvor1"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             app:startIconDrawable="@android:drawable/ic_dialog_dialer">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etOTB1B2"
+                android:id="@+id/etPtRastvor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/dserasercyr1"
@@ -104,9 +104,9 @@
             android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
-            app:layout_constraintEnd_toEndOf="@+id/tilUbka"
-            app:layout_constraintStart_toStartOf="@+id/tilUbka"
-            app:layout_constraintTop_toBottomOf="@+id/tilUbka" />
+            app:layout_constraintEnd_toEndOf="@+id/tilRastvor1"
+            app:layout_constraintStart_toStartOf="@+id/tilRastvor1"
+            app:layout_constraintTop_toBottomOf="@+id/tilRastvor1" />
 
         <TextView
             android:id="@+id/textView"

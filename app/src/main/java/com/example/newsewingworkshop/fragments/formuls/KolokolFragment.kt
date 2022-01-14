@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.example.newsewingworkshop.R
 import kotlinx.android.synthetic.main.fragment_kolokol.*
-import kotlinx.android.synthetic.main.fragment_kolokol.etPb
+import kotlinx.android.synthetic.main.fragment_kolokol.etStRastvor
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -38,7 +38,7 @@ class KolokolFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         btResultKolokol.setOnClickListener {
-            if (etPb.text.toString().isNotEmpty()){
+            if (etStRastvor.text.toString().isNotEmpty()){
                 ubkaKolokol()
             } else {
                 Toast.makeText(context,"Заполните пустое полe!", Toast.LENGTH_LONG).show()
@@ -47,7 +47,7 @@ class KolokolFragment : Fragment() {
     }
 
     fun ubkaKolokol(){
-        val count = etPb.text.toString().toInt()
+        val count = etStRastvor.text.toString().toInt()
         val result = (8*count)/(3*6.28)
         tvResultKolokol.text = result.toString()
     }
