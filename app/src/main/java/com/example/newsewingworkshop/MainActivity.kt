@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
         }
+        button2.setOnClickListener {
+            val intent = Intent(this, TamplatesActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
 

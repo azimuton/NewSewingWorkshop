@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewSewingWorkshop">
         <activity
+            android:name=".TamplatesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
