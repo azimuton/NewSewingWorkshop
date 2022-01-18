@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange1"
+    tools:context=".fragments.manuals.PribavkiFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTab1"
+                style="@style/buttons_manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Таблица 1 -  Величины прибавок\t\n на толщину плечевых прокладок\t\n (подплечников)" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/tab1" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/buttons_manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Таблица 2 – Рекомендуемые значения Пг\t\n для различных видов женской одежды" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="162dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/tab2" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/buttons_manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Таблица 3 – Типовое  распределение  Пг\t\n  по  участкам  чертежа  конструкции\t\n  женской одежды  " />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/tab3" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/buttons_manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Таблица 4 - Соотношение\t\n прибавок на свободное облегание\t\n в различных силуэтах женской\t\n одежды  " />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/tab4" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/buttons_manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Таблица 5 – Рекомендуемые величины\t\n прибавок к обхвату плеча при\t\n конструировании втачных рукавов  " />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/tab5" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/buttons_manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Таблица 6 – Величины прибавок Пш. горл.,\t\n Пв. горл., Пспр, Пдтс для различных видов\t\n женской одежды " />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/tab6" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

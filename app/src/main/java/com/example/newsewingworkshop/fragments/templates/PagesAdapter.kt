@@ -14,7 +14,4 @@ class PagesAdapter( val pages : ArrayList<Page>,  val fragmentManager : Fragment
         return  PagesFragment.newInstance("a", "aa", pages[position].image)
     }
 
-    override fun getPageTitle(position: Int): CharSequence? {
-        return "Title $position"
-    }
 }

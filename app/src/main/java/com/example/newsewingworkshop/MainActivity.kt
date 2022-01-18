@@ -21,6 +21,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, TamplatesActivity::class.java)
             startActivity(intent)
         }
+        button3.setOnClickListener {
+            val intent = Intent(this, ManualActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
 
