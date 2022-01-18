@@ -1,6 +1,7 @@
 package com.example.newsewingworkshop
 
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.Animation
@@ -40,6 +41,12 @@ class ManualActivity : AppCompatActivity() {
             val animation: Animation = AnimationUtils.loadAnimation(this, R.anim.alfaperehod)
             flManual.startAnimation(animation)
         }
+        btDefekti.setOnClickListener {
+            val intent = Intent(this, DefektiActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(0, R.anim.open_activity)
+            finish()
+        }
 
 //    val animation: Animation = AnimationUtils.loadAnimation(this, R.anim.gotofulllight)
 //    button7.startAnimation(animation)
@@ -48,4 +55,12 @@ class ManualActivity : AppCompatActivity() {
 //    button7.animate().alpha(1f)
 
 }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+        overridePendingTransition(0, R.anim.open_activity)
+        finish()
+    }
     }

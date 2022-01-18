@@ -4,6 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#4F6536"
     tools:context=".DefektiActivity">
 
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/btKlasifikacia"
+                style="@style/buttons_defekti"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Классификация и характеристика дефектов в женской одежде" />
+
+            <Button
+                android:id="@+id/btNetochnosti"
+                style="@style/buttons_defekti"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Дефекты, вызванные неточностями воспроизведения силуэтной формы изделия" />
+
+            <Button
+                android:id="@+id/btPlechi"
+                style="@style/buttons_defekti"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Дефекты плечевой одежды" />
+
+            <Button
+                android:id="@+id/btFigura"
+                style="@style/buttons_defekti"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Дефекты одежды на фигуре при движении" />
+
+            <Button
+                android:id="@+id/btUstranenie"
+                style="@style/buttons_defekti"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Дефекты брюк и юбок и способы их устранения" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/flDefekti"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dressdefekti" />
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

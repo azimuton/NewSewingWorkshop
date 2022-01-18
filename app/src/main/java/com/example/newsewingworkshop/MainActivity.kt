@@ -16,14 +16,20 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
+            overridePendingTransition(0, R.anim.open_activity)
+            finish()
         }
         button2.setOnClickListener {
             val intent = Intent(this, TamplatesActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(0, R.anim.open_activity)
+            finish()
         }
         button3.setOnClickListener {
             val intent = Intent(this, ManualActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(0, R.anim.open_activity)
+            finish()
         }
     }
 }

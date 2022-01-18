@@ -19,6 +19,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
 
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dresstemplates" />
     </FrameLayout>
 
     <HorizontalScrollView
@@ -41,10 +46,9 @@
             <Button
                 android:id="@+id/btMerki"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_margin="16dp"
                 android:backgroundTint="@color/black"
-                android:fontFamily="@font/dserasercyr1"
                 android:text="Порядок снятия мерок"
                 android:textColor="#FFC107"
                 android:textSize="16sp"
@@ -54,10 +58,9 @@
             <Button
                 android:id="@+id/btRashodTkaney"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_margin="16dp"
                 android:backgroundTint="@color/black"
-                android:fontFamily="@font/dserasercyr1"
                 android:text="Расход тканей на изделия"
                 android:textColor="#FFC107"
                 android:textSize="16sp"
@@ -67,10 +70,9 @@
             <Button
                 android:id="@+id/btPribavki"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_margin="16dp"
                 android:backgroundTint="@color/black"
-                android:fontFamily="@font/dserasercyr1"
                 android:text="Прибавки на свободное облегание"
                 android:textColor="#FFC107"
                 android:textSize="16sp"
@@ -80,11 +82,10 @@
             <Button
                 android:id="@+id/btDefekti"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_margin="16dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
-                android:fontFamily="@font/dserasercyr1"
                 android:text="Виды конструктивных дефектов"
                 android:textColor="#FFC107"
                 android:textSize="16sp"

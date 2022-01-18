@@ -1,5 +1,6 @@
 package com.example.newsewingworkshop
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.animation.Animation
@@ -71,6 +72,14 @@ class MainActivity2 : AppCompatActivity() {
                 // can leave this empty
             }
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+        overridePendingTransition(0, R.anim.open_activity)
+        finish()
     }
 
     fun animate(){

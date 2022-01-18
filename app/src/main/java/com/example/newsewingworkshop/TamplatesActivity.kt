@@ -1,5 +1,6 @@
 package com.example.newsewingworkshop
 
+import android.content.Intent
 import android.graphics.BitmapFactory
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -44,5 +45,12 @@ class TamplatesActivity : AppCompatActivity() {
             )
 
         vpViewPager.adapter = PagesAdapter(pages,supportFragmentManager)
+    }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+        overridePendingTransition(0, R.anim.open_activity)
+        finish()
     }
 }
