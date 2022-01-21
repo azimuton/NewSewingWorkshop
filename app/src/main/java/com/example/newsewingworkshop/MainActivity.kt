@@ -31,6 +31,19 @@ class MainActivity : AppCompatActivity() {
             overridePendingTransition(0, R.anim.open_activity)
             finish()
         }
+        button4.setOnClickListener {
+            val intent = Intent(this, ClientsActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(0, R.anim.open_activity)
+            finish()
+        }
+
+        button5.setOnClickListener {
+            val intent = Intent(this, CalendarActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(0, R.anim.open_activity)
+            finish()
+        }
     }
 }
 

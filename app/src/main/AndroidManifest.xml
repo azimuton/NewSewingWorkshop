@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewSewingWorkshop">
         <activity
+            android:name=".CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditClientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientsActivity"
+            android:exported="false" />
+        <activity
             android:name=".DefektiActivity"
             android:exported="false" />
         <activity

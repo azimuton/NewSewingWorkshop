@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AC9654"
+    tools:context=".clients.EditActivity">
+
+    <EditText
+        android:id="@+id/etSHn"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView73"
+        app:layout_constraintStart_toEndOf="@+id/textView73"
+        app:layout_constraintTop_toTopOf="@+id/textView73"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etSHk"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView72"
+        app:layout_constraintStart_toEndOf="@+id/textView72"
+        app:layout_constraintTop_toTopOf="@+id/textView72"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDt_k"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView71"
+        app:layout_constraintStart_toEndOf="@+id/textView71"
+        app:layout_constraintTop_toTopOf="@+id/textView71"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etObed"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView70"
+        app:layout_constraintStart_toEndOf="@+id/textView70"
+        app:layout_constraintTop_toTopOf="@+id/textView70"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <EditText
+        android:id="@+id/etVs"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView69"
+        app:layout_constraintStart_toEndOf="@+id/textView69"
+        app:layout_constraintTop_toTopOf="@+id/textView69"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDb"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView68"
+        app:layout_constraintStart_toEndOf="@+id/textView68"
+        app:layout_constraintTop_toTopOf="@+id/textView68"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDzz"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView67"
+        app:layout_constraintStart_toEndOf="@+id/textView67"
+        app:layout_constraintTop_toTopOf="@+id/textView67"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDzb"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView66"
+        app:layout_constraintStart_toEndOf="@+id/textView66"
+        app:layout_constraintTop_toTopOf="@+id/textView66"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDsp"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView65"
+        app:layout_constraintStart_toEndOf="@+id/textView65"
+        app:layout_constraintTop_toTopOf="@+id/textView65"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDub"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView64"
+        app:layout_constraintStart_toEndOf="@+id/textView64"
+        app:layout_constraintTop_toTopOf="@+id/textView64"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etOzap"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView63"
+        app:layout_constraintStart_toEndOf="@+id/textView63"
+        app:layout_constraintTop_toTopOf="@+id/textView63"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etOr"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView62"
+        app:layout_constraintStart_toEndOf="@+id/textView62"
+        app:layout_constraintTop_toTopOf="@+id/textView62"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDr"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView61"
+        app:layout_constraintStart_toEndOf="@+id/textView61"
+        app:layout_constraintTop_toTopOf="@+id/textView61"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etVprz"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView60"
+        app:layout_constraintStart_toEndOf="@+id/textView60"
+        app:layout_constraintTop_toTopOf="@+id/textView60"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etVpks"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView59"
+        app:layout_constraintStart_toEndOf="@+id/textView59"
+        app:layout_constraintTop_toTopOf="@+id/textView59"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etCg"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView58"
+        app:layout_constraintStart_toEndOf="@+id/textView58"
+        app:layout_constraintTop_toTopOf="@+id/textView58"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/etVg"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView57"
+        app:layout_constraintStart_toEndOf="@+id/textView57"
+        app:layout_constraintTop_toTopOf="@+id/textView57"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDts"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView56"
+        app:layout_constraintStart_toEndOf="@+id/textView56"
+        app:layout_constraintTop_toTopOf="@+id/textView56"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDtp"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView55"
+        app:layout_constraintStart_toEndOf="@+id/textView55"
+        app:layout_constraintTop_toTopOf="@+id/textView55"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/etSHp"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView54"
+        app:layout_constraintStart_toEndOf="@+id/textView54"
+        app:layout_constraintTop_toTopOf="@+id/textView54"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etSHs"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView53"
+        app:layout_constraintStart_toEndOf="@+id/textView53"
+        app:layout_constraintTop_toTopOf="@+id/textView53"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etSHg2"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView52"
+        app:layout_constraintStart_toEndOf="@+id/textView52"
+        app:layout_constraintTop_toTopOf="@+id/textView52"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etSHg"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView51"
+        app:layout_constraintStart_toEndOf="@+id/textView51"
+        app:layout_constraintTop_toTopOf="@+id/textView51"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etDt_b"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView50"
+        app:layout_constraintStart_toEndOf="@+id/textView50"
+        app:layout_constraintTop_toTopOf="@+id/textView50"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etOb"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintStart_toEndOf="@+id/textView49"
+        app:layout_constraintTop_toTopOf="@+id/textView49"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etOta"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView48"
+        app:layout_constraintStart_toEndOf="@+id/textView48"
+        app:layout_constraintTop_toTopOf="@+id/textView48"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView48"
+        style="@style/Merki_style"
+        android:text="От"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <EditText
+        android:id="@+id/etOg3"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView47"
+        app:layout_constraintStart_toEndOf="@+id/textView47"
+        app:layout_constraintTop_toTopOf="@+id/textView47"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView50"
+        style="@style/Merki_style"
+        android:text="Дт-б"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <EditText
+        android:id="@+id/etOg2"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView46"
+        app:layout_constraintStart_toEndOf="@+id/textView46"
+        app:layout_constraintTop_toTopOf="@+id/textView46"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etOg1"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView45"
+        app:layout_constraintStart_toEndOf="@+id/textView45"
+        app:layout_constraintTop_toTopOf="@+id/textView45"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView49"
+        style="@style/Merki_style"
+        android:text="Об"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="Фамилия"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/etName"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="@+id/etName"
+        app:layout_constraintTop_toBottomOf="@+id/etName" />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="Номер телефона"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:phoneNumber="true"
+        app:layout_constraintEnd_toEndOf="@+id/etLastName"
+        app:layout_constraintStart_toStartOf="@+id/etLastName"
+        app:layout_constraintTop_toBottomOf="@+id/etLastName"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Таблица мерок"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPhoneNumber" />
+
+    <TextView
+        android:id="@+id/textView43"
+        style="@style/Merki_style"
+        android:layout_marginStart="8dp"
+        android:text="Диз"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+    <TextView
+        android:id="@+id/textView44"
+        style="@style/Merki_style"
+        android:text="Ош"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <EditText
+        android:id="@+id/etDis"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView43"
+        app:layout_constraintStart_toEndOf="@+id/textView43"
+        app:layout_constraintTop_toTopOf="@+id/textView43"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/etOsh"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView44"
+        app:layout_constraintStart_toEndOf="@+id/textView44"
+        app:layout_constraintTop_toTopOf="@+id/textView44"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView45"
+        style="@style/Merki_style"
+        android:text="Ог1"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView46"
+        style="@style/Merki_style"
+        android:text="Ог2"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView47"
+        style="@style/Merki_style"
+        android:text="Ог3"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView51"
+        style="@style/Merki_style"
+        android:text="Шг"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView52"
+        style="@style/Merki_style"
+        android:text="Шг2"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView53"
+        style="@style/Merki_style"
+        android:text="Шс"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView54"
+        style="@style/Merki_style"
+        android:layout_marginStart="75dp"
+        android:text="Шп"
+        app:layout_constraintBottom_toBottomOf="@+id/textView43"
+        app:layout_constraintStart_toEndOf="@+id/textView43"
+        app:layout_constraintTop_toTopOf="@+id/textView43"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView55"
+        style="@style/Merki_style"
+        android:text="Дтп"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <TextView
+        android:id="@+id/textView56"
+        style="@style/Merki_style"
+        android:text="Дтс"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <TextView
+        android:id="@+id/textView57"
+        style="@style/Merki_style"
+        android:text="Вг"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <TextView
+        android:id="@+id/textView58"
+        style="@style/Merki_style"
+        android:text="Цг"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Заметки"
+        android:inputType="textMultiLine|textPersonName"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView42"
+        style="@style/Merki_style"
+        android:text="Впкп"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+    <EditText
+        android:id="@+id/etVpkp"
+        style="@style/EditText_merki_style"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView42"
+        app:layout_constraintStart_toEndOf="@+id/textView42"
+        app:layout_constraintTop_toTopOf="@+id/textView42"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView59"
+        style="@style/Merki_style"
+        android:layout_marginTop="4dp"
+        android:text="Впкс"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView60"
+        style="@style/Merki_style"
+        android:layout_height="wrap_content"
+        android:text="Впрз"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+    <TextView
+        android:id="@+id/textView61"
+        style="@style/Merki_style"
+        android:text="Др"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <TextView
+        android:id="@+id/textView62"
+        style="@style/Merki_style"
+        android:text="Ор"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <TextView
+        android:id="@+id/textView63"
+        style="@style/Merki_style"
+        android:text="Озап"
+        app:layout_constraintEnd_toEndOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/textView64"
+        style="@style/Merki_style"
+        android:layout_marginStart="8dp"
+        android:text="Дюб"
+        app:layout_constraintBottom_toBottomOf="@+id/textView54"
+        app:layout_constraintStart_toEndOf="@+id/etSHp"
+        app:layout_constraintTop_toTopOf="@+id/textView54"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView65"
+        style="@style/Merki_style"
+        android:layout_marginTop="4dp"
+        android:text="Дсп"
+        app:layout_constraintEnd_toStartOf="@+id/etDub"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+    <TextView
+        android:id="@+id/textView66"
+        style="@style/Merki_style"
+        android:text="Дзб"
+        app:layout_constraintEnd_toStartOf="@+id/etDub"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+    <TextView
+        android:id="@+id/textView67"
+        style="@style/Merki_style"
+        android:text="Дзз"
+        app:layout_constraintEnd_toStartOf="@+id/etDub"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+    <TextView
+        android:id="@+id/textView68"
+        style="@style/Merki_style"
+        android:text="Дб"
+        app:layout_constraintEnd_toStartOf="@+id/etDub"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+    <TextView
+        android:id="@+id/textView69"
+        style="@style/Merki_style"
+        android:text="Вс"
+        app:layout_constraintEnd_toStartOf="@+id/etDub"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView68" />
+
+    <TextView
+        android:id="@+id/textView70"
+        style="@style/Merki_style"
+        android:text="Обед"
+        app:layout_constraintEnd_toStartOf="@+id/etDub"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+    <TextView
+        android:id="@+id/textView71"
+        style="@style/Merki_style"
+        android:text="Дт-к"
+        app:layout_constraintEnd_toStartOf="@+id/etDub"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView72"
+        style="@style/Merki_style"
+        android:text="Шк"
+        app:layout_constraintEnd_toStartOf="@+id/etDub"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+    <TextView
+        android:id="@+id/textView73"
+        style="@style/Merki_style"
+        android:text="Шн"
+        app:layout_constraintEnd_toStartOf="@+id/etDub"
+        app:layout_constraintStart_toStartOf="@+id/textView64"
+        app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+    <ImageView
+        android:id="@+id/ivSaveData"
+        android:layout_width="157dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/etName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
